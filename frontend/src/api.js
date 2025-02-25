@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://babysteps-appointment-o7ij.onrender.com";  // On local use change URL :-  http://localhost:5000/
 
 
 export const fetchDoctors = async () => axios.get(`${API_URL}/doctors`);
