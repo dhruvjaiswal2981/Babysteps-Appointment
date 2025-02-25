@@ -1,7 +1,7 @@
 # BabySteps Appointment Booking System
 
 ## Overview
-This project is a **Doctor Appointment Booking System** that allows users to schedule appointments with doctors. It includes a **backend server** built with **Node.js and Express** using **SQLite** as the database and a **frontend** built with **React.js**.
+This project is a **BabySteps Appointment Booking System** that allows users to schedule appointments with doctors. It includes a **backend server** built with **Node.js and Express** using **SQLite** as the database and a **frontend** built with **React.js**.
 
 ## Features
 - **Doctor Management**: Add, view, and list doctors.
@@ -127,9 +127,9 @@ project-root/
 
 Backend Deployment
    - Live Demo: The application is hosted on Render
-   - Access it here: 
+   - Access it here: https://babysteps-appointment-o7ij.onrender.com
 
 Frontend Deployment
    - Live Demo: The application is hosted on Netlify.
-   - Access it here: 
+   - Access it here: https://babysteps-appoinment.netlify.app/
 ---
