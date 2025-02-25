@@ -1,0 +1,100 @@
+/* Wrapper for background */
+.slots-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f5f7fa, #c3cfe2);
+    padding: 20px;
+  }
+  
+  /* Main Container */
+  .slots-container {
+    max-width: 600px;
+    width: 100%;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .slots-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Title Styling */
+  .title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  /* Date Picker */
+  .date-picker {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .date-picker input {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+  }
+  
+  /* Slots List */
+  .slots-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+  }
+  
+  /* Slot Buttons */
+  .slot-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    background: #fdfdfd;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    color: #2c3e50;
+    border: 1px solid #2c3e50;
+  }
+  
+  .slot-button:hover {
+    background: #e3f2fd;
+    transform: scale(1.05);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slot-button:active {
+    background: #bbdefb;
+  }
+  
+  /* No Slots Message */
+  .no-slots {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .slots-container {
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 1.6rem;
+    }
+  
+    .slot-button {
+      font-size: 0.95rem;
+      padding: 10px;
+    }
+  }
+  

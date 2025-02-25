@@ -1,0 +1,137 @@
+/* Global container styling */
+.container {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 25px;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to bottom, #eef2f3, #d3cce3);
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .container:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Typography */
+  h5 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #2c3e50;
+    padding: 30px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Appointment list styling */
+  .MuiList-root {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Individual appointment items */
+  .MuiListItem-root {
+    padding: 18px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .MuiListItem-root:hover {
+    background: #f8f9fa;
+    transform: translateX(5px);
+    border-radius: 8px;
+  }
+  
+  /* Appointment details text */
+  .MuiListItemText-primary {
+    font-size: 20px !important;
+    font-weight: 600;
+    color: #34495e;
+  }
+  
+  .MuiListItemText-secondary {
+    font-size: 15px !important;
+    color: #7f8c8d;
+  }
+  
+  /* Buttons */
+  .MuiButton-root {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Edit button */
+  .MuiButton-root:first-child {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .MuiButton-root:first-child:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+  }
+  
+  /* Delete button */
+  .MuiButton-root:last-child {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .MuiButton-root:last-child:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+  }
+  
+  /* Dialog styling */
+  .MuiDialog-paper {
+    padding: 22px;
+    border-radius: 10px;
+  }
+  
+  .MuiDialogTitle-root {
+    font-size: 22px;
+    font-weight: 700;
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  /* Input fields */
+  .MuiTextField-root {
+    margin-bottom: 18px !important;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 90%;
+      padding: 20px;
+    }
+  
+    h5 {
+      font-size: 24px;
+    }
+  
+    .MuiListItem-root {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .MuiButton-root {
+      width: 100%;
+      margin-top: 8px;
+    }
+  }
+  

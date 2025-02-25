@@ -1,0 +1,83 @@
+/* Background Styling */
+.appointment-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f5f7fa, #c3cfe2);
+    padding: 20px;
+  }
+  
+  /* Form Container */
+  .appointment-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .appointment-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Title Styling */
+  .appointment-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: #d32f2f;
+    background: #f8d7da;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Form Fields */
+  .appointment-form .MuiTextField-root {
+    margin-bottom: 15px;
+  }
+  
+  .appointment-form .MuiOutlinedInput-root {
+    border-radius: 8px;
+  }
+  
+  /* Submit Button */
+  .appointment-button {
+    background: #1976d2 !important;
+    color: white !important;
+    font-size: 16px !important;
+    padding: 10px !important;
+    border-radius: 8px !important;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .appointment-button:hover {
+    background: #1565c0 !important;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .appointment-container {
+      padding: 20px;
+      max-width: 100%;
+    }
+  
+    .appointment-title {
+      font-size: 22px;
+    }
+  
+    .appointment-button {
+      font-size: 14px !important;
+    }
+  }
+  
